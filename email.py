@@ -1,15 +1,6 @@
 """
-Starting template for creating an email simulator program using
-classes, methods, and functions.
+This Python code creates an email simulator program using classes, methods, and functions.
 
-This template provides a foundational structure to develop your own
-email simulator. It includes placeholder functions and conditional statements
-with 'pass' statements to prevent crashes due to missing logic.
-Replace these 'pass' statements with your implementation once you've added
-the required functionality to each conditional statement and function.
-
-Note: Throughout the code, update comments to reflect the changes and logic
-you implement for each function and method.
 """
 
 # --- OOP Email Simulator --- #
@@ -24,7 +15,7 @@ you implement for each function and method.
 
 
 # --- Functions --- #
-# Build out the required functions for your program.
+# Building out the required functions for the email simulator program.
 
 class Email():
     
@@ -98,11 +89,8 @@ inbox=[]
 
 # --- Email Program --- #
 
-# Call the function to populate the inbox for further use in your program.
+# Calling the function to populate the inbox for further use in the email simulator program.
 populate_inbox()
-
-
-# Fill in the logic for the various menu operations.
 
 # Display the menu options for each iteration of the loop.
 while True:
@@ -118,7 +106,7 @@ while True:
     )
 
     if user_choice == 1:
-         # Add logic here to read an email
+         # logic below is to read an email
         list_emails()
         selection = int(input("Enter the corresponding email index number to read the email full details: "))
         read_email(selection)
